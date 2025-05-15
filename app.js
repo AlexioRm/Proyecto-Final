@@ -31,8 +31,7 @@ function jugar() {
         intentosUsados++;
 
         if (intentoUsuario === numeroSecreto) {
-            alert(`¡Felicidades, ${nombreUsuario}
-                ! Adivinaste en ${intentosUsados} intentos. El número era ${numeroSecreto}.`);
+            alert(`¡Felicidades, ${nombreUsuario} ! Adivinaste en ${intentosUsados} intentos. El número era ${numeroSecreto}.`);
             console.log(`${nombreUsuario} adivinó en ${intentosUsados} intentos.`);
             reiniciar();
             return;
